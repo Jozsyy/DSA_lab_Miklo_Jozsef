@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+D:/Github(C)/Clion_feladatok/DSA_lab_Miklo_Jozsef/Lab2/feladat1/function.h
+
+D:/Github(C)/Clion_feladatok/DSA_lab_Miklo_Jozsef/Lab2/feladat1/main.c
+stdio.h
+-
+function.h
+D:/Github(C)/Clion_feladatok/DSA_lab_Miklo_Jozsef/Lab2/feladat1/function.h
+
