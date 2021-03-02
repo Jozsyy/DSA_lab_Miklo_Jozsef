@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+D:/Github(C)/Clion_feladatok/DSA_lab_Miklo_Jozsef/Lab3/Lab2.1/functions.c
+functions.h
+D:/Github(C)/Clion_feladatok/DSA_lab_Miklo_Jozsef/Lab3/Lab2.1/functions.h
+
+D:/Github(C)/Clion_feladatok/DSA_lab_Miklo_Jozsef/Lab3/Lab2.1/functions.h
+

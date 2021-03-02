@@ -1,0 +1,3 @@
+D:/Github(C)/Clion_feladatok/DSA_lab_Miklo_Jozsef/Lab2/gyak2.2/cmake-build-debug/CMakeFiles/gyak2_2.dir
+D:/Github(C)/Clion_feladatok/DSA_lab_Miklo_Jozsef/Lab2/gyak2.2/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/Github(C)/Clion_feladatok/DSA_lab_Miklo_Jozsef/Lab2/gyak2.2/cmake-build-debug/CMakeFiles/rebuild_cache.dir
