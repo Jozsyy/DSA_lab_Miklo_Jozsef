@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.17)
-project(Matrix C)
+project(matrix C)
 
 set(CMAKE_C_STANDARD 99)
 
-add_executable(Matrix main.c functions.c functions.h)
+add_executable(matrix main.c functions.c functions.h)

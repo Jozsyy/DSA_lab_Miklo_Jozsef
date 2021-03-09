@@ -61,3 +61,29 @@ void printMatrix(Matrix *array){
         printf("\n");
     }
 }
+
+void deleteRow(Matrix *matrix, int nr) {
+    if(nr>=matrix->rows || nr<0){
+        printf("A matrixnak nincs olyan sora");
+        return;
+    }
+    for(int i=nr;i<matrix->rows-1;++i){
+        for(int j=0;j<matrix->cols;++j){
+            matrix->data[i][j]=matrix->data[i+1][j];
+        }
+    }
+    free(matrix->data[matrix->rows]);
+    matrix->rows--;
+}
+
+int minimum(Matrix *matrix) {
+    int minn=matrix->data[0][0];
+    for(int i=0;i<matrix->rows;++i){
+        for(int j=0;j<matrix->cols;++j){
+            if(matrix->data[i][j]<minn){
+                minn=matrix->data[i][j];
+            }
+        }
+    }
+    return minn;
+}
