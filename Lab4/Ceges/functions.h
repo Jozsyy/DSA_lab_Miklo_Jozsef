@@ -13,7 +13,7 @@ typedef struct {
 
 typedef struct {
     char intezmeny[20];
-    char kar[10];
+    char kar[15];
     double atlag;
 }FELSOFOK;
 

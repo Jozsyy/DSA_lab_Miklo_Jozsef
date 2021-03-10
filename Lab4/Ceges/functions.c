@@ -22,7 +22,7 @@ void read_data(CEG* a,int n,FILE *f){
         return;
     }
     for(int i=0;i<n;++i){
-        fscanf(f,"%s%s%c",a[i].vnev,a[i].knev,&a[i].vegzettseg[0]);
+        fscanf(f,"%s%s%s",a[i].vnev,a[i].knev,a[i].vegzettseg);
         if(a[i].vegzettseg[0]=='K'){
             fscanf(f,"%s%lf",a[i].kv.liceum,&a[i].kv.atlag);
         }
