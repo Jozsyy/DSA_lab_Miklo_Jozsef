@@ -22,7 +22,7 @@ void printMatrix(Matrix* array);
 
 //töröl egy adott sort a matrixbol
 //csökkenti a sorok számát, felszabaditja az utolso sort
-void deleteRow(Matrix *matrix, int nr);
+void deleteRow(Matrix* matrix, int nr);
 
 //visszatéríti a tömb legkisebb elemét
 int minimum(Matrix* matrix);

@@ -62,7 +62,7 @@ void printMatrix(Matrix *array){
     }
 }
 
-void deleteRow(Matrix *matrix, int nr) {
+void deleteRow(Matrix* matrix, int nr) {
     if(nr>=matrix->rows || nr<0){
         printf("A matrixnak nincs olyan sora");
         return;
