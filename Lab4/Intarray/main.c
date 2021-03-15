@@ -4,7 +4,6 @@
 
 int main() {
    IntArray *a;
-   createArray(6);
    readArray("in.txt",&a);
    //fillArray(&a->elements,6,0,50);
    printArray(a);
