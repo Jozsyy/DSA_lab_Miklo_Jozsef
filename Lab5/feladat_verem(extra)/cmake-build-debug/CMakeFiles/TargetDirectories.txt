@@ -1,0 +1,3 @@
+D:/Github(C)/Clion_feladatok/DSA_lab_Miklo_Jozsef/Lab5/feladat_verem(extra)/cmake-build-debug/CMakeFiles/feladat_verem_extra_.dir
+D:/Github(C)/Clion_feladatok/DSA_lab_Miklo_Jozsef/Lab5/feladat_verem(extra)/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/Github(C)/Clion_feladatok/DSA_lab_Miklo_Jozsef/Lab5/feladat_verem(extra)/cmake-build-debug/CMakeFiles/rebuild_cache.dir

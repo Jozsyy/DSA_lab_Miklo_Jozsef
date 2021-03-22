@@ -1,0 +1,17 @@
+#include <stdio.h>
+int main(){
+int i; char c;
+FILE *fin;
+fin = fopen(“szoveg.txt”, “rt”);
+if(!fin){
+printf(“Sikertelen allomanymegnyitas”);
+return 0;
+}
+i = 0;
+while( fscanf(fin, “%c”, &c) != EOF ){
+++i;
+}
+printf(“Karakterek szama: %i”, i);
+fclose(fin);
+return 0;
+}
