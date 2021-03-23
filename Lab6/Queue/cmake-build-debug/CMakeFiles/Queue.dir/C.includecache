@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+D:/Github(C)/Clion_feladatok/DSA_lab_Miklo_Jozsef/Lab6/Queue/functions.c
+functions.h
+D:/Github(C)/Clion_feladatok/DSA_lab_Miklo_Jozsef/Lab6/Queue/functions.h
+stdlib.h
+-
+stdio.h
+-
+
+D:/Github(C)/Clion_feladatok/DSA_lab_Miklo_Jozsef/Lab6/Queue/functions.h
+stdbool.h
+-
+

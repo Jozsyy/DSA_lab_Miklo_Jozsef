@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+D:/Github(C)/Clion_feladatok/DSA_lab_Miklo_Jozsef/Lab6/Queue-dinamic/functions.c
+functions.h
+D:/Github(C)/Clion_feladatok/DSA_lab_Miklo_Jozsef/Lab6/Queue-dinamic/functions.h
+stdlib.h
+-
+stdio.h
+-
+
+D:/Github(C)/Clion_feladatok/DSA_lab_Miklo_Jozsef/Lab6/Queue-dinamic/functions.h
+stdbool.h
+-
+
+D:/Github(C)/Clion_feladatok/DSA_lab_Miklo_Jozsef/Lab6/Queue-dinamic/main.c
+stdio.h
+-
+functions.h
+D:/Github(C)/Clion_feladatok/DSA_lab_Miklo_Jozsef/Lab6/Queue-dinamic/functions.h
+
