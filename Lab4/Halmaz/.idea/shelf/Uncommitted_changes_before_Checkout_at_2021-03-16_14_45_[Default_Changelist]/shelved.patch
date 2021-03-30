@@ -1,0 +1,51 @@
+Index: functions.h
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>//\r\n// Created by Jozsi on 2021-03-15.\r\n//\r\n\r\n#ifndef HALMAZ_FUNCTIONS_H\r\n#define HALMAZ_FUNCTIONS_H\r\n\r\ntypedef struct\r\n{\r\n    int db;\r\n    int *S;\r\n}Halmaz;\r\n\r\n//helyfoglalas a halmazban levo sornak\r\nint* createArray(int n);\r\n\r\n//2 halmaz egyesitese\r\nvoid egyesites(Halmaz A, Halmaz B);\r\n\r\n//2halmaz metszete\r\nvoid metszet(Halmaz A, Halmaz B);\r\n\r\n//2 halmaz kulonbsege\r\nvoid kulonbseg(Halmaz A, Halmaz B);\r\n#endif //HALMAZ_FUNCTIONS_H\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/functions.h b/functions.h
+--- a/functions.h	(revision 2160aa056e4a044d9da2ce2a133ad37b2abfa180)
++++ b/functions.h	(date 1615898292828)
+@@ -11,7 +11,7 @@
+     int *S;
+ }Halmaz;
+ 
+-//helyfoglalas a halmazban levo sornak
++//helyfoglalas a halmazban levo tombnek
+ int* createArray(int n);
+ 
+ //2 halmaz egyesitese
+Index: cmake-build-debug/Testing/Temporary/LastTest.log
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>Start testing: Mar 15 17:40 GTB Standard Time\r\n----------------------------------------------------------\r\nEnd testing: Mar 15 17:40 GTB Standard Time\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/cmake-build-debug/Testing/Temporary/LastTest.log b/cmake-build-debug/Testing/Temporary/LastTest.log
+--- a/cmake-build-debug/Testing/Temporary/LastTest.log	(revision 2160aa056e4a044d9da2ce2a133ad37b2abfa180)
++++ b/cmake-build-debug/Testing/Temporary/LastTest.log	(date 1615898399752)
+@@ -1,3 +1,3 @@
+-Start testing: Mar 15 17:40 GTB Standard Time
++Start testing: Mar 16 14:39 GTB Standard Time
+ ----------------------------------------------------------
+-End testing: Mar 15 17:40 GTB Standard Time
++End testing: Mar 16 14:39 GTB Standard Time
+Index: ../Intarray/cmake-build-debug/Testing/Temporary/LastTest.log
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>Start testing: Mar 15 15:56 GTB Standard Time\r\n----------------------------------------------------------\r\nEnd testing: Mar 15 15:56 GTB Standard Time\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/../Intarray/cmake-build-debug/Testing/Temporary/LastTest.log b/../Intarray/cmake-build-debug/Testing/Temporary/LastTest.log
+--- a/../Intarray/cmake-build-debug/Testing/Temporary/LastTest.log	(revision 2160aa056e4a044d9da2ce2a133ad37b2abfa180)
++++ b/../Intarray/cmake-build-debug/Testing/Temporary/LastTest.log	(date 1615896955543)
+@@ -1,3 +1,3 @@
+-Start testing: Mar 15 15:56 GTB Standard Time
++Start testing: Mar 16 14:15 GTB Standard Time
+ ----------------------------------------------------------
+-End testing: Mar 15 15:56 GTB Standard Time
++End testing: Mar 16 14:15 GTB Standard Time

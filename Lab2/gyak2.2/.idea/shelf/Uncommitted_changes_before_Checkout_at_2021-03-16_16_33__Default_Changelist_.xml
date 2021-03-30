@@ -1,0 +1,34 @@
+<changelist name="Uncommitted_changes_before_Checkout_at_2021-03-16_16_33_[Default_Changelist]" date="1615905225572" recycled="true" deleted="true">
+  <option name="PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_2021-03-16_16_33_[Default_Changelist]/shelved.patch" />
+  <option name="DESCRIPTION" value="Uncommitted changes before Checkout at 2021-03-16 16:33 [Default Changelist]" />
+  <binary>
+    <option name="BEFORE_PATH" value="../feladat1/cmake-build-debug/CMakeFiles/feladat1.dir/depend.internal" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="../feladat0/cmake-build-debug/CMakeFiles/feladat0.dir/C.includecache" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="../feladat1/cmake-build-debug/CMakeFiles/feladat1.dir/C.includecache" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="../feladat0/cmake-build-debug/CMakeFiles/3.17.5/CMakeDetermineCompilerABI_C.bin" />
+    <option name="AFTER_PATH" value="../feladat0/cmake-build-debug/CMakeFiles/3.17.5/CMakeDetermineCompilerABI_C.bin" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_2021-03-16_16_33_[Default_Changelist]/CMakeDetermineCompilerABI_C.bin" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="../feladat0/cmake-build-debug/CMakeFiles/feladat0.dir/depend.internal" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="../feladat1/cmake-build-debug/CMakeFiles/3.17.5/CMakeDetermineCompilerABI_C.bin" />
+    <option name="AFTER_PATH" value="../feladat1/cmake-build-debug/CMakeFiles/3.17.5/CMakeDetermineCompilerABI_C.bin" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_2021-03-16_16_33_[Default_Changelist]/CMakeDetermineCompilerABI_C1.bin" />
+  </binary>
+</changelist>
