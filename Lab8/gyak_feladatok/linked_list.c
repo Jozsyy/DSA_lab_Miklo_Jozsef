@@ -7,7 +7,7 @@
 #include <stdlib.h>
 #include <string.h>
 
-Node* create() {
+Node* createNode() {
     Node* newNode = (Node*)calloc(1, sizeof(Node));
 
     if(!newNode) {
@@ -16,19 +16,22 @@ Node* create() {
     }
 
     newNode->next = NULL;
-
+//    newNode->data = NULL;
+//    strcpy(newNode->nev,"");
     return newNode;
 }
 
 void insert(Node** front, char *nev, int data) {
-    Node* newNode = create();
+    Node* newNode = createNode();
     newNode->data = data;
     strcpy(newNode->nev,nev);
-
-    if(front == NULL ) {
-        newNode->next = (struct Node *) *front;
-        *front = newNode;
+    if(*front==NULL) {
+        (*front)->data= newNode->data;
+        strcpy((*front)->nev,newNode->nev);
+        (*front)->next=NULL;
+        printf("%s %i",(*front)->nev,(*front)->data);
     } else {
+        printf("lol");
         Node* p = *front;
         int i = 1;
 
@@ -38,7 +41,7 @@ void insert(Node** front, char *nev, int data) {
         }
 
         newNode->next = p->next;
-        p->next = (struct Node *) newNode;
+        p->next = (Node *) newNode;
     }
 }
 
@@ -71,6 +74,7 @@ void read(const char *fileName,Node *myNode){
     int x;
 
     while(fscanf(f,"%s",nev)!=EOF){
+        //printf("%s ",nev);
         fscanf(f,"%i\n",&x);
         insert(&myNode,nev,x);
     }

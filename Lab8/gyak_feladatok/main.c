@@ -13,7 +13,7 @@ int main() {
 //    print_stack(mystack);
 
     Node *nodes;
-    read("players.txt",nodes);
+    read("emberek.txt",nodes);
     print_list(nodes);
 
     return 0;

@@ -11,7 +11,7 @@ typedef struct {
     struct Node* next;
 } Node;
 
-Node* create();
+Node* createNode();
 void insert(Node** front, char *nev, int data);
 void remove_node(Node *front);
 void destroy(Node* front);
