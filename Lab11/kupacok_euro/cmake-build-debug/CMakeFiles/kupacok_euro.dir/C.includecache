@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+D:/Github(C)/Clion_feladatok/DSA_lab_Miklo_Jozsef/Lab11/kupacok_euro/heap.h
+stdio.h
+-
+stdlib.h
+-
+
+D:/Github(C)/Clion_feladatok/DSA_lab_Miklo_Jozsef/Lab11/kupacok_euro/linked_list.h
+stdlib.h
+-
+stdio.h
+-
+
+D:/Github(C)/Clion_feladatok/DSA_lab_Miklo_Jozsef/Lab11/kupacok_euro/main.c
+heap.h
+D:/Github(C)/Clion_feladatok/DSA_lab_Miklo_Jozsef/Lab11/kupacok_euro/heap.h
+linked_list.h
+D:/Github(C)/Clion_feladatok/DSA_lab_Miklo_Jozsef/Lab11/kupacok_euro/linked_list.h
+
