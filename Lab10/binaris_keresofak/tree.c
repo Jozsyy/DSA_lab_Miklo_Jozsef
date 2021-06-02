@@ -41,3 +41,47 @@ void inorder(root *tree){
     }
 }
 
+void preorder(root *tree)
+{
+    printf("%3d ", tree->data);
+    if(tree->left)
+        preorder(tree->left);
+    if(tree->right)
+        preorder(tree->right);
+}
+
+void postorder(root *tree)
+{
+    if(tree->left)
+        postorder(tree->left);
+    if(tree->right)
+        postorder(tree->right);
+    printf("%3d ", tree->data);
+}
+
+void destroy(root **tree)
+{
+    if((*tree) != NULL)
+    {
+        destroy(&((*tree)->left));
+        destroy(&((*tree)->right));
+        free((*tree));
+        (*tree) = NULL;
+    }
+}
+
+bool find(root* tree, int key)
+{
+    if (tree == NULL)
+        return false;
+    if (tree->data == key)
+        return true;
+    bool res1 = find(tree->left, key);
+    if(res1) return true;
+    bool res2 = find(tree->right, key);
+    return res2;
+}
+
+
+
+

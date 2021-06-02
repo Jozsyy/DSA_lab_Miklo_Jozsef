@@ -3,6 +3,7 @@
 //
 #include <stdlib.h>
 #include <stdio.h>
+#include <stdbool.h>
 #ifndef BINARIS_KERESOFAK_TREE_H
 #define BINARIS_KERESOFAK_TREE_H
 
@@ -16,9 +17,9 @@ root *create(int a);
 void destroy(root **);
 void insert(root **tree, int a);
 void inorder(root *tree);
-void preorder(root *);
-void postorder(root *);
-root *Delete(root **, int);
-root *Find(root *, int);
+void preorder(root *tree);
+void postorder(root *tree);
+//root *delete(root **tree, int a);
+bool find(root *tree, int key);
 
 #endif //BINARIS_KERESOFAK_TREE_H
