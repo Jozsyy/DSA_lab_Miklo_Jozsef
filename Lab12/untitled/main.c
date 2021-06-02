@@ -15,6 +15,9 @@ int main() {
 
     printf("\n%i\n",search("John",hashTable,m));
 
-
+    delete("John",hashTable,m);
+    for(int i=0;i<m;++i){
+        printf("%i ",hashTable[i]);
+    }
     free(hashTable);
 }

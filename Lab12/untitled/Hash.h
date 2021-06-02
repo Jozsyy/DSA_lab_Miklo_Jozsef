@@ -11,6 +11,6 @@
 int* createHashTable(int m);
 int search(char *szo, int *t, int m);
 void insert(char *szo, int *t, int m);
-void delete(int k, int *t, int m);
+void delete(char *szo, int *t, int m);
 
 #endif //UNTITLED_HASH_H

@@ -17,7 +17,7 @@ int* createHashTable(int m){
 }
 
 int search(char *szo, int *t, int m){
-    int k;
+    int k=0;
     for(int i=0;i<strlen(szo);++i){
         k+=szo[i];
     }
@@ -34,7 +34,7 @@ int search(char *szo, int *t, int m){
 }
 
 void insert(char *szo, int *t, int m){
-    int k;
+    int k=0;
     for(int i=0;i<strlen(szo);++i){
         k+=szo[i];
     }
@@ -54,7 +54,11 @@ void insert(char *szo, int *t, int m){
     return;
 }
 
-void delete(int k, int *t, int m){
+void delete(char *szo, int *t, int m){
+    int k=0;
+    for(int i=0;i<strlen(szo);++i){
+        k+=szo[i];
+    }
     int j,i=0;
     do
     {
