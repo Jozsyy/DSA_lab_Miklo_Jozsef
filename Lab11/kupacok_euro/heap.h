@@ -20,5 +20,7 @@ typedef struct heap{
 heap *createHeap(int max);
 void insert(heap* h,int year, int month, int price);
 void up(heap* h, int i);
-
+void down(heap* h, int i) ;
+euro torolmax(heap *h);
+void kupacrendez(heap *h, int N);
 #endif //KUPACOK_EURO_HEAP_H

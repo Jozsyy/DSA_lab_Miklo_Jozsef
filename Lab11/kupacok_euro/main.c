@@ -37,8 +37,27 @@ int main() {
         case 12:printf("december");break;
         default:printf("\nNincs ilyen honap:%i\n",y);
     }
-    printf(": %i forint %i filler",forint,filler);
+    printf(": %i forint %i filler\n",forint,filler);
 
+
+    /**
+     * +feladat
+     * kiirjuk a kupacot (legnagyobb ertek van az elejen-csokkeno sorrend)
+     * majd atrendezzuk (kupacrendes fuggvennyel)-legkisebb elem az elejen(novekvo sorrend)
+     */
+    printf("\n\n");
+    for(int i=1;i<=h->size;++i){
+        printf("%i, %i, %i\t\t",h->data[i].year,h->data[i].month,h->data[i].price);
+    }
+
+    kupacrendez(h,x);
+    h->size=x;
+
+    printf("\n\n");
+    for(int i=1;i<=h->size;++i){
+        printf("%i, %i, %i\t\t",h->data[i].year,h->data[i].month,h->data[i].price);
+    }
+///probalkozas linked_listel
 //    int x;
 //    FILE *f=fopen("euro.txt","rt");
 //    if(!f){
