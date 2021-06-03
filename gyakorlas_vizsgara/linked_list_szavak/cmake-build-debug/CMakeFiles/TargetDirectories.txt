@@ -1,0 +1,3 @@
+D:/Github(C)/Clion_feladatok/DSA_lab_Miklo_Jozsef/gyakorlas_vizsgara/linked_list_szavak/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/Github(C)/Clion_feladatok/DSA_lab_Miklo_Jozsef/gyakorlas_vizsgara/linked_list_szavak/cmake-build-debug/CMakeFiles/linked_list_szavak.dir
+D:/Github(C)/Clion_feladatok/DSA_lab_Miklo_Jozsef/gyakorlas_vizsgara/linked_list_szavak/cmake-build-debug/CMakeFiles/rebuild_cache.dir
